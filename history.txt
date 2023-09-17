@@ -1,0 +1,193 @@
+    1  git --version
+    2  git config --global use.name "Trevor Bingham"
+    3  git config --global user.email "tbing00g@byu.edu"
+    4  git config --global core.editor "code --wait"
+    5  git config --global init.defaultBrach main\n
+    6  git config --global init.defaultBrach main
+   27  history |grep git
+   28  git config --global user.email "trevor.m.bingham@gmail.com"
+   29  git config --global user.name "Trevor Bingham"
+   30  git config --list
+   32  mkdir git_practice
+   33  cd git_practic
+   34  cd git_practice
+   38  git status
+   39  git init
+   40  git status
+   48  rm -rf .git
+   50  rm git_practice
+   51  rm -rf git_practice
+   53  rm -rf git_practice
+   59  mkdir git_practice
+   60  cd git_practice
+   61  git init
+   62  rm -rf .git
+   64  git status
+   65  git init
+   68  git status
+   69  git add .
+   70  git commit -m 'Creation'
+   71  git status
+   73  git config --global --unset use.name
+   74  git config --list
+   75  git config --global init.defaultBranch main\n
+   76  git config --global --unset init.defaultBrach
+   77  git config --list
+   80  git log
+   82  git status
+   83  git commit -a -m "Added file 2 and text"
+   84  git status
+   85  git add .
+   86  git commit -a -m "Added file 2 and text"
+   87  git status
+   88  git log --oneline
+   89  git log
+   99  cd git_practice
+  103  cd git_practice
+  104  git status
+  105  touch .gitignore
+  106  nano .gitignore
+  107  git add .
+  108  git commit -m 'Create gitignore'
+  109  git status
+  110  git status
+  111  git commit
+  113  rm -rf .gitignore
+  115  git branch
+  116  git branch new_feature
+  117  git branch
+  118  git checkout new_feature
+  120  git branch
+  121  git switch main
+  122  git checkout new_feature
+  124  git add .
+  125  git commit -m 'New branch and create feature file'
+  126  git log
+  128  cd git_practice
+  130  git switch main
+  131  git merge new_feature
+  132  git branch -d new_feature
+  133  git branch
+  134  git add .
+  135  git commit -m 'committing gitignore again'
+  136  git remote add origin https://github.com/trevor-bingham99/git-practice-trevor-bingham99.git
+  137  git push -u origin main
+  138  git remote add origin https://github.com/trevor-bingham99/git-practice-trevor-bingham99.git\ngit branch -M main\ngit push -u origin main
+  139  git remote set-url origin https://github.com/trevor-bingham99/git-practice-trevor-bingham99.git
+  140  git push -u origin main
+  141  git add .
+  142  git commit -m 'update .gitignore'
+  143  git push
+  145  git config --global -e
+  146  git config --global -e
+  155  git config --global -e
+  156  git config --global core.autocrlf input
+  160  cd git_practice
+  164  git add .
+  165  git commit -m "update txt files"
+  166  git add .
+  167  git commit -m "update txt files"
+  168  git branch
+  169  git branch -a
+  170  git remote -v
+  176  cd git_practice
+  181  rm -rf git_practice
+  183  mkdir git_practice
+  184  cd git_practice
+  185  git init
+  186  git status
+  189  git status
+  190  git add .
+  191  git commit -m 'create new files'
+  192  git status
+  193  git log
+  194  git status
+  195  git add file_1.txt
+  196  git commit -m 'update file_1'
+  197  git status
+  198  git add file_2.txt
+  199  git commit -m 'update file_2'
+  200  git log
+  202  git add . 
+  203  git commit -m 'add Readme file'
+  204  git touch .gitignore
+  205  touch .gitignore
+  206  git add .
+  207  git commit -m '.gitignore file made'
+  209  git status
+  210  git status
+  211  git branch features
+  212  git switch features
+  213  git log
+  215  git add .
+  216  git commit -m 
+  217  git commit -m 'add empty file'
+  218  git checkout fbde0298cdbf460bd126d1d924a7764d55eac6b3
+  219  git add .
+  220  git checkout a148889a4655fe38a405727ada5c47801a53496f
+  224  rm -rf git_practice 
+  226  mkdir git_practice
+  227  cd git_practice
+  228  git init
+  231  git add .
+  232  git commit -m 'create new files'
+  233  git add file_1.txt
+  234  git commit -m 'update file_1'
+  235  git add file_2.txt
+  236  git commit -m 'update file_2'
+  238  git add .
+  239  git commit -m 'create Readme.md'
+  240  touch .gitignore
+  241  git add .
+  242  git commit -m 'create .gitignore'
+  244  git status
+  245  git branch features
+  246  git switch features
+  247  git log
+  249  git add .
+  250  git commit -m 'add empty file'
+  251  git add .
+  252  git commit -m 'add text to features file'
+  253  git switch main
+  254  git add .
+  255  git commit -m 'add line to file_1'
+  256  git merge feature
+  257  git branch
+  258  git merge features
+  259  git merge features
+  260  git commit -m 'merge features branch'
+  261  git log
+  262  git add .
+  263  git commit -m 'change features file'
+  264  git branch features
+  265  git switch features
+  266  git commit -m 'change features file'
+  267  git add .
+  268  git commit -m 'change features file'
+  269  git switch main
+  270  git merge features
+  271  git add .
+  272  git commit -m 'merge conflict resolution'
+  273  git branch -d features
+  274  git remote add origin git@github.com:trevor-bingham99/git-practice-trevor-bingham99.git
+  275  git push -u origin main
+  277  git clone git@github.com:trevor-bingham99/git-practice-csthomps.git
+  279  git-practice-csthomps
+  280  cd git-practice-csthomps
+  282  git branch feature-trevor-bingham99
+  283  git add .
+  284  git commit -m 'change file_1'
+  285  git push origin feature-trevor-bingham99
+  286  git switch feature-trevor-bingham99
+  287  git add .
+  288  git commit -m 'change file_1'
+  289  git push origin feature-trevor-bingham99
+  290  git status
+  291  git log
+  292  cd ../git_practice
+  293  git status
+  294  git log --oneline
+  295  git remote add origin git@github.com:trevor-bingham99/git-practice-trevor-bingham99.git
+  296  git pull
+  298  git log --oneline > gitlog.txt
+  299  history | grep git > history.txt
